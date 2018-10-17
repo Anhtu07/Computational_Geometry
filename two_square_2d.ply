@@ -1,0 +1,19 @@
+ply
+format ascii 1.0
+element vertex_list 6
+property float x
+property float y
+element face_list 2
+property list uchar int vertex_indices
+property uchar red
+property uchar green
+property uchar blue
+end_header
+0 0
+0 1
+1 1
+1 0
+2 1
+2 0
+4 0 1 2 3 255 255 255
+4 3 2 4 5 0 255 255
