@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.12)  26 NOV 2018 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.12)  26 NOV 2018 20:56
 entering extended mode
 **./subdivition_intersection.tex
 (subdivition_intersection.tex
@@ -598,7 +598,12 @@ LaTeX Font Info:    Try loading font information for T5+cmr on input line 3.
 
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vntex\t5cmr.fd"
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
+)
+
+LaTeX Warning: Label `fig: giao hai ph\IeC {\^a}n ho\IeC {\d a}ch' multiply def
+ined.
+
+)
 \openout1 = `subdivition_intersection.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -838,38 +843,94 @@ File: ./dcel2.png Graphic file (type png)
 Package pdftex.def Info: ./dcel2.png  used on input line 137.
 (pdftex.def)             Requested size: 405.31326pt x 224.63869pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
-Package natbib Warning: Citation `adams1995hitchhiker' on page 6 undefined on i
-nput line 147.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+<./mapoverlay_example.png, id=37, 831.85782pt x 316.18124pt>
+File: ./mapoverlay_example.png Graphic file (type png)
+<use ./mapoverlay_example.png>
+Package pdftex.def Info: ./mapoverlay_example.png  used on input line 150.
+(pdftex.def)             Requested size: 415.92789pt x 158.09023pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./dcel2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+<./vertex_from_subdivisions.png, id=42, 741.52031pt x 218.31563pt>
+File: ./vertex_from_subdivisions.png Graphic file (type png)
+<use ./vertex_from_subdivisions.png>
+Package pdftex.def Info: ./vertex_from_subdivisions.png  used on input line 168
+.
+(pdftex.def)             Requested size: 370.75925pt x 109.15753pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+[7 <./mapoverlay_example.png>]
+
+Package natbib Warning: Citation `adams1995hitchhiker' on page 8 undefined on i
+nput line 180.
 
 No file subdivition_intersection.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[6 <./dcel2.png>] (subdivition_intersection.aux) ) 
+[8 <./vertex_from_subdivisions.png>] (subdivition_intersection.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3119 strings out of 493305
- 43008 string characters out of 3129802
- 108806 words of memory out of 3000000
- 6618 multiletter control sequences out of 15000+200000
+ 3130 strings out of 493305
+ 43338 string characters out of 3129802
+ 108853 words of memory out of 3000000
+ 6627 multiletter control sequences out of 15000+200000
  10321 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,25p,1816b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/tungu/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tungu/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
-Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tungu/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/tungu/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/tungu/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/tungu/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on subdivition_intersection.pdf (6 pages, 470546 bytes).
+<C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tungu/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tungu/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tungu/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
+Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx10.pfb>
+<C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.
+pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr
+10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/
+vnti10.pfb>
+Output written on subdivition_intersection.pdf (8 pages, 590522 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -138,9 +138,42 @@ Tóm lại, Cấu trúc nửa cạnh bao gồm 3 thuộc tính: các đỉnh, c�
 \caption{Ví dụ về cấu trúc nửa cạnh}
 \label{fig: ví dụ về cấu trúc nửa cạnh}
 \end{figure}
+
 \section{Giao Phân Hoạch}
 \subsection{Phát Biểu Bài Toán}
+Bây giờ, ta đã có cấu trúc dữ liệu nửa cạnh là một phương pháp tốt để biểu diện một phân hoạch. Bài toán đặt ra ở đây là nếu có hai phân hoạch được đặt chồng lên nhau thì khi đó các mặt mới được tạo ra và việc cập nhật lại thông tin ở trên dữ liệu nửa cạnh sẽ như thế nào. \\
+
+Cụ thể, ta kí hiệu giao của phần hoạch $S_1$ và phân hoạch $S_2$ là phân hoạch $O(S_1, S_2)$ và $f$ được gọi là một mặt trong phân hoạch mới nếu tồn tại $f_1$ thuộc $S_1$ và $f_2$thuộc $S_2$ sao cho $f$ là tập con liên thông cực đại (theo nghĩa bao hàm) của $f_1 \cap f_2$. Mô tả như hình vẽ.\\
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{./mapoverlay_example.png}
+\caption{Giao hai phân hoạch}
+\label{fig: giao hai phân hoạch}
+\end{figure}
+
+Bài toán đặt ra ở đây là chúng ta cần phải xây dựng lại cấu trúc nửa cạnh cho phân hoạch mới được tạo ra từ hai phân hoạch.
+
 \subsection{Xây Dựng Thuật Toán}
+Chúng ta thấy rằng các cạnh của phân hoạch $S_1$ giao cắt với các cạnh của phân hoạch $S_2$ tạo thêm các đỉnh, canh và mặt mới. Tuy nhiên ta không cần phải cập nhật thông tin của tất cả các cạnh mà chỉ cần quan tâm đến giao điểm giữa cạnh của phân hoạch này với cạnh của phân hoạch kia. Và các thông tin về mặt của phân hoạch mới hoàn toàn có thể xây dựng thông qua dữ liệu về các nửa cạnh mới. \\
+
+Như vậy việc đầu tiên ta cần làm là tìm giao điểm của các cạnh giữa hai phân hoạch, cập nhập thêm các đỉnh và nửa cạnh mới. Để làm được điều này, ta tận dụng giải thuật tìm giao điểm giữa các cạnh mà ta đã biết. Đầu tiên, ta ghép danh sách nửa cạnh $D_1$ của phân hoạch $S_1$ và danh sách nửa cạnh $D_2$ của phân hoạch $S_2$ thành danh sách nửa cạnh mới $D$. Sau đó chạy giải thuật tìm giao điểm trên danh sách nửa cạnh $D$. Ở đây, có khác so với thuật toán giao cắt các đoạn thẳng miêu tả ở phần trước đó là trong quá trình quét mặt phẳng, ta sẽ đồng thời xây dựng cấu trúc nửa cảnh. \\
+
+Trước tiên, ta miêu tả giải thuật quét mặt phẳng để xây dựng nên các nửa cạnh, còn thông tin về mặt ta sẽ xử lý sau. Ta chạy giải thuật quét mặt phẳng tìm giao điểm như đã miêu tả ở phần trên cho tập cạnh $D$. Ngoài việc, xử lý hai cấu trúc cây event và cây status $Q$ và $T$, bây giờ ta lưu thêm danh sách của nửa cạnh $D$. Khi khởi tạo, danh sách này gồm bản sao danh sách nửa cạnh của hai phân hoạch $S_1$ và $S_2$. Trong quá trình quét mặt phẳng, ta sẽ dần dần cập nhập danh sách nửa cạnh trở thành danh sách nửa cạnh đúng. \\
+
+Khi đường thẳng quét gặp một event point, đầu tiên, ta sẽ cập nhập cây event $Q$ và cây status $T$. Nếu điểm sự kiện đó chỉ kề với những cạnh thuộc cùng một phân hoạch, thì khi đó, đỉnh này là đỉnh có thể sự dụng lại được và ta không cần phải làm gì thêm. Nếu đỉnh kề với các cạnh thuộc cả hai phân hoạch, khi đó ta phải cập nhập thông tin cho $D$. Để làm được điều này, ta đi xét 3 trường hợp sau. \\
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{./vertex_from_subdivisions.png}
+\caption{Xác định con trỏ next, prev}
+\label{fig: giao hai phân hoạch}
+\end{figure}
+
+Trường hợp thứ nhất là trong quá trình quét ta thấy cạnh $e$ của $S_1$ đi qua đỉnh $v$ của $S_2$. Cạnh $e$ khi đó cần phải được thay thế bằng hai cạnh $e'$ và $e''$. Trong dánh sách nửa cạnh $D$, hai cạnh mới thêm này tương ứng với 4 nửa cạnh. Đầu tiên, ta tạo mới 2 nửa cạnh đều có gốc là $v$, hai nửa cạnh ứng với cạnh $e$ được giữ nguyên gốc là hai đầu mút của cạnh $e$. sau đó, ta gán 2 nửa cạnh này là twin với 2 nửa cạnh mới được tạo. Khi đó $e'$ và $e''$ được biểu diện 2 nửa cạnh, một mới được tạo, một được lấy từ nửa cạnh của $e$. Bây giờ, ta chỉ cần tìm các con trỏ next và prev cho 4 nửa cạnh này. Ta xử lý các trường hợp dính tới 2 đầu mút của cạnh $e$ được miêu tả như hình vẽ. \\
+
+Đối với các trường hợp liên quan tới đỉnh $v$, ta cần phải gán các con trỏ next và prev cho 4 nửa cạnh biểu diễn cho $e'$ và $e''$
+
 \subsection{Tính Đúng Đắn và Độ Phức Tạp}
 \section{Kết Quả}
 \section{Conclusion}
