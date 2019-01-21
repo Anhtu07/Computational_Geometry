@@ -1,0 +1,11 @@
+\babel@toc {vietnamese}{}
+\contentsline {section}{\numberline {1}Giao \IeC {\DJ }i\IeC {\h \ecircumflex }m \IeC {\DJ }o\IeC {\d a}n Th\IeC {\h \abreve }ng Trong M\IeC {\d \abreve }t Ph\IeC {\h \abreve }ng}{3}
+\contentsline {subsection}{\numberline {1.1}\IeC {\'Y} T\IeC {\uhorn }\IeC {\h \ohorn }ng Thu\IeC {\d \acircumflex }t To\IeC {\'a}n}{3}
+\contentsline {subsection}{\numberline {1.2}C\IeC {\'\acircumflex }u Tr\IeC {\'u}c D\IeC {\~\uhorn } Li\IeC {\d \ecircumflex }u v\IeC {\`a} Thu\IeC {\d \acircumflex }t To\IeC {\'a}n}{6}
+\contentsline {subsection}{\numberline {1.3}T\IeC {\'\i }nh \IeC {\DJ }\IeC {\'u}ng \IeC {\DJ }\IeC {\'\abreve }n v\IeC {\`a} \IeC {\DJ }\IeC {\d \ocircumflex } Ph\IeC {\'\uhorn }c T\IeC {\d a}p Thu\IeC {\d \acircumflex }t To\IeC {\'a}n}{8}
+\contentsline {section}{\numberline {2}C\IeC {\'\acircumflex }u Tr\IeC {\'u}c N\IeC {\h \uhorn }a C\IeC {\d a}nh}{9}
+\contentsline {section}{\numberline {3}Giao Ph\IeC {\^a}n Ho\IeC {\d a}ch}{12}
+\contentsline {subsection}{\numberline {3.1}Ph\IeC {\'a}t Bi\IeC {\h \ecircumflex }u B\IeC {\`a}i To\IeC {\'a}n}{12}
+\contentsline {subsection}{\numberline {3.2}X\IeC {\^a}y D\IeC {\d \uhorn }ng Thu\IeC {\d \acircumflex }t To\IeC {\'a}n}{12}
+\contentsline {section}{\numberline {4}K\IeC {\'\ecircumflex }t Qu\IeC {\h a} Th\IeC {\d \uhorn }c Nghi\IeC {\d \ecircumflex }m}{17}
+\contentsline {section}{\numberline {5}T\IeC {\h \ocircumflex }ng K\IeC {\'\ecircumflex }t}{20}

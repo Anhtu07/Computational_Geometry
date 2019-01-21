@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.12)  26 NOV 2018 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.12)  2 DEC 2018 15:29
 entering extended mode
 **./subdivition_intersection.tex
 (subdivition_intersection.tex
@@ -352,9 +352,9 @@ File: switch.def 2018/02/14 3.18 Babel switching mechanism
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
-ish.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-vietnamese\v
+ietnamese.ldf"
+Language: vietnamese 
 
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
@@ -365,14 +365,6 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 ef")
 \bbl@dirlevel=\count88
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)
-("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-vietnamese\v
-ietnamese.ldf"
-Language: vietnamese 
-
 
 Package babel Warning: No hyphenation patterns were preloaded for
 (babel)                the language `Vietnamese' into the format.
@@ -544,6 +536,26 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 ))
 Package babel Info: Making " an active character on input line 147.
 ))
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vntex\vietnam.sty"
+Package: vietnam 2009/07/12 v1.3 support for Vietnamese
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vntex\t5enc.def"
+File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
+LaTeX Font Info:    Redeclaring font encoding T5 on input line 75.
+)
+LaTeX Font Info:    Try loading font information for T5+cmr on input line 105.
+
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vntex\t5cmr.fd"
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vntex\vncaps.tex"
+File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
+))
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\fullpage.
 sty"
 Package: fullpage 1999/02/23 1.1 (PWD)
@@ -553,22 +565,41 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
 \CurrentLineWidth=\dimen104
 )
-("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip44
-\bibsep=\skip45
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count89
-)
-("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption
+.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+y"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+ty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
 y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count89
+)
+\c@subfigure=\count90
+\c@subtable=\count91
+)
+("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
 sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -586,54 +617,113 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 
 LaTeX Warning: Unused global option(s):
     [15pt].
 
 (subdivition_intersection.aux
-LaTeX Font Info:    Try loading font information for T5+cmr on input line 3.
-
-("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vntex\t5cmr.fd"
-File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 
 LaTeX Warning: Label `fig: giao hai ph\IeC {\^a}n ho\IeC {\d a}ch' multiply def
 ined.
 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\dj 
+l.28 ... {\`\ocircumflex } th\IeC {\d i}}{{8}{15}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\dj 
+l.28 ... {\`\ocircumflex } th\IeC {\d i}}{{8}{15}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ... {\`\ocircumflex } th\IeC {\d i}}{{8}{15}}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra \endcsname.
+\@namedef ...xpandafter \def \csname #1\endcsname 
+                                                  
+l.28 ... {\`\ocircumflex } th\IeC {\d i}}{{8}{15}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Label `fig:sfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig' multiply defined.
+
 )
 \openout1 = `subdivition_intersection.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
-\scratchdimen=\dimen107
+\scratchcounter=\count92
+\scratchdimen=\dimen114
 \scratchbox=\box26
-\nofMPsegments=\count91
-\nofMParguments=\count92
+\nofMPsegments=\count93
+\nofMParguments=\count94
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count93
-\MPscratchDim=\dimen108
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen115
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks18
 )
 ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
@@ -698,239 +788,363 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+) [1
+
+{C:/Users/tungu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<bk_logo.jpg, id=6, 401.5pt x 401.5pt>
+File: bk_logo.jpg Graphic file (type jpg)
+<use bk_logo.jpg>
+Package pdftex.def Info: bk_logo.jpg  used on input line 38.
+(pdftex.def)             Requested size: 187.89914pt x 187.90247pt.
+
+[1 <./bk_logo.jpg>] (subdivition_intersection.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
+\tf@toc=\write3
+\openout3 = `subdivition_intersection.toc'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-<./y_interval.png, id=1, 516.42938pt x 522.45187pt>
-File: ./y_interval.png Graphic file (type png)
-<use ./y_interval.png>
-Package pdftex.def Info: ./y_interval.png  used on input line 27.
-(pdftex.def)             Requested size: 185.91443pt x 188.08252pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-[1
-
-{C:/Users/tungu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./y_interva
-l.png>]
-<./sweep_line.png, id=15, 816.04875pt x 505.89pt>
-File: ./sweep_line.png Graphic file (type png)
-<use ./sweep_line.png>
-Package pdftex.def Info: ./sweep_line.png  used on input line 38.
-(pdftex.def)             Requested size: 204.01169pt x 126.47218pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
+ [1]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-[2 <./sweep_line.png>]
-<./status_tree.png, id=21, 462.97969pt x 599.99156pt>
-File: ./status_tree.png Graphic file (type png)
-<use ./status_tree.png>
-Package pdftex.def Info: ./status_tree.png  used on input line 58.
-(pdftex.def)             Requested size: 162.0453pt x 210.00018pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+<./y_interval.png, id=19, 516.42938pt x 522.45187pt>
+File: ./y_interval.png Graphic file (type png)
+<use ./y_interval.png>
+Package pdftex.def Info: ./y_interval.png  used on input line 70.
+(pdftex.def)             Requested size: 185.91443pt x 188.08252pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 71.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-[3 <./status_tree.png>]
+<./sweep_line.png, id=29, 816.04875pt x 505.89pt>
+File: ./sweep_line.png Graphic file (type png)
+<use ./sweep_line.png>
+Package pdftex.def Info: ./sweep_line.png  used on input line 80.
+(pdftex.def)             Requested size: 204.01169pt x 126.47218pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+[4 <./y_interval.png> <./sweep_line.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
+
+<./status_tree.png, id=39, 462.97969pt x 599.99156pt>
+File: ./status_tree.png Graphic file (type png)
+<use ./status_tree.png>
+Package pdftex.def Info: ./status_tree.png  used on input line 98.
+(pdftex.def)             Requested size: 162.0453pt x 210.00018pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+[7 <./status_tree.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<./dcel1.png, id=31, 332.442pt x 390.86024pt>
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[9]
+<./dcel1.png, id=54, 332.442pt x 390.86024pt>
 File: ./dcel1.png Graphic file (type png)
 <use ./dcel1.png>
-Package pdftex.def Info: ./dcel1.png  used on input line 123.
+Package pdftex.def Info: ./dcel1.png  used on input line 157.
 (pdftex.def)             Requested size: 126.32927pt x 148.52843pt.
-[5 <./dcel1.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 163.
 
-
-("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Users\tungu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
-<./dcel2.png, id=36, 810.6285pt x 449.2785pt>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
+ [10 <./dcel1.png>]
+<./dcel2.png, id=59, 810.6285pt x 449.2785pt>
 File: ./dcel2.png Graphic file (type png)
 <use ./dcel2.png>
-Package pdftex.def Info: ./dcel2.png  used on input line 137.
+Package pdftex.def Info: ./dcel2.png  used on input line 169.
 (pdftex.def)             Requested size: 405.31326pt x 224.63869pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[11 <./dcel2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-<./mapoverlay_example.png, id=37, 831.85782pt x 316.18124pt>
+<./mapoverlay_example.png, id=65, 831.85782pt x 316.18124pt>
 File: ./mapoverlay_example.png Graphic file (type png)
 <use ./mapoverlay_example.png>
-Package pdftex.def Info: ./mapoverlay_example.png  used on input line 150.
+Package pdftex.def Info: ./mapoverlay_example.png  used on input line 181.
 (pdftex.def)             Requested size: 415.92789pt x 158.09023pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
-[6 <./dcel2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+ []
+
+[12 <./mapoverlay_example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-<./vertex_from_subdivisions.png, id=42, 741.52031pt x 218.31563pt>
+<./vertex_from_subdivisions.png, id=70, 741.52031pt x 218.31563pt>
 File: ./vertex_from_subdivisions.png Graphic file (type png)
 <use ./vertex_from_subdivisions.png>
-Package pdftex.def Info: ./vertex_from_subdivisions.png  used on input line 168
+Package pdftex.def Info: ./vertex_from_subdivisions.png  used on input line 196
 .
 (pdftex.def)             Requested size: 370.75925pt x 109.15753pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-[7 <./mapoverlay_example.png>]
+[13 <./vertex_from_subdivisions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
-Package natbib Warning: Citation `adams1995hitchhiker' on page 8 undefined on i
-nput line 180.
+ []
 
-No file subdivition_intersection.bbl.
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
-[8 <./vertex_from_subdivisions.png>] (subdivition_intersection.aux)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+<./face_graph.png, id=78, 536.0025pt x 447.47176pt>
+File: ./face_graph.png Graphic file (type png)
+<use ./face_graph.png>
+Package pdftex.def Info: ./face_graph.png  used on input line 212.
+(pdftex.def)             Requested size: 268.0006pt x 223.73532pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+
+ []
+
+[15 <./face_graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+
+ []
+
+[17]
+<dcel1_ex.png, id=90, 544.28343pt x 539.76656pt>
+File: dcel1_ex.png Graphic file (type png)
+<use dcel1_ex.png>
+Package pdftex.def Info: dcel1_ex.png  used on input line 248.
+(pdftex.def)             Requested size: 187.90271pt x 186.3432pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 249.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 249.
+<dcel2_ex.png, id=91, 682.80093pt x 518.6878pt>
+File: dcel2_ex.png Graphic file (type png)
+<use dcel2_ex.png>
+Package pdftex.def Info: dcel2_ex.png  used on input line 254.
+(pdftex.def)             Requested size: 187.90271pt x 142.73851pt.
+<./overlay_ex.png, id=92, 537.50812pt x 549.55313pt>
+File: ./overlay_ex.png Graphic file (type png)
+<use ./overlay_ex.png>
+Package pdftex.def Info: ./overlay_ex.png  used on input line 264.
+(pdftex.def)             Requested size: 268.7534pt x 274.7759pt.
+<./10_vertex_overlay.png, id=93, 433.62pt x 289.08pt>
+File: ./10_vertex_overlay.png Graphic file (type png)
+<use ./10_vertex_overlay.png>
+Package pdftex.def Info: ./10_vertex_overlay.png  used on input line 273.
+(pdftex.def)             Requested size: 187.90271pt x 125.26797pt.
+<./10_vertex_overlay0.png, id=94, 433.62pt x 289.08pt>
+File: ./10_vertex_overlay0.png Graphic file (type png)
+<use ./10_vertex_overlay0.png>
+Package pdftex.def Info: ./10_vertex_overlay0.png  used on input line 279.
+(pdftex.def)             Requested size: 187.90271pt x 125.26797pt.
+<./70_vertex_overlayp0.png, id=95, 433.62pt x 289.08pt>
+File: ./70_vertex_overlayp0.png Graphic file (type png)
+<use ./70_vertex_overlayp0.png>
+Package pdftex.def Info: ./70_vertex_overlayp0.png  used on input line 286.
+(pdftex.def)             Requested size: 187.90271pt x 125.26797pt.
+<./100_vertex_overlayp0.png, id=96, 433.62pt x 289.08pt>
+File: ./100_vertex_overlayp0.png Graphic file (type png)
+<use ./100_vertex_overlayp0.png>
+Package pdftex.def Info: ./100_vertex_overlayp0.png  used on input line 292.
+(pdftex.def)             Requested size: 187.90271pt x 125.26797pt.
+ [18 <./dcel1_ex.png> <./dcel2_ex.png> <./overlay_ex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+<./time.png, id=106, 531.48563pt x 398.99063pt>
+File: ./time.png Graphic file (type png)
+<use ./time.png>
+Package pdftex.def Info: ./time.png  used on input line 305.
+(pdftex.def)             Requested size: 265.74216pt x 199.49483pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./10_vertex_overlay.png> <./10_vertex_overlay0.png> <./70_vertex_overlayp0
+.png> <./100_vertex_overlayp0.png>]
+Overfull \hbox (20.90625pt too wide) in paragraph at lines 313--315
+\T5/cmr/m/n/14.4 Com-pu-ta-tional Ge-om-e-try: Al-go-rithms and Ap-pli-ca-tions
+, \T5/cmr/m/it/14.4 Third Edi-tion\T5/cmr/m/n/14.4 , Springer. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
+
+ []
+
+[20 <./time.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 321.
+ [21] (subdivition_intersection.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\dj 
+l.28 ... {\`\ocircumflex } th\IeC {\d i}}{{8}{15}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.28 ... {\`\ocircumflex } th\IeC {\d i}}{{8}{15}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3130 strings out of 493305
- 43338 string characters out of 3129802
- 108853 words of memory out of 3000000
- 6627 multiletter control sequences out of 15000+200000
- 10321 words of font info for 21 fonts, out of 3000000 for 9000
+ 4293 strings out of 493305
+ 63886 string characters out of 3129802
+ 117704 words of memory out of 3000000
+ 7754 multiletter control sequences out of 15000+200000
+ 17940 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,1816b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,40p,1993b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tungu/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tungu/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tungu/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
-Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx10.pfb>
-<C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.
-pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr
-10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/
-vnti10.pfb>
-Output written on subdivition_intersection.pdf (8 pages, 590522 bytes).
+blic/amsfonts/cm/cmmi12.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/tungu/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tungu/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tungu
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/
+Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vn
+r/vnbx10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/vnte
+x/vnr/vnbx12.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+vntex/vnr/vnr10.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/vntex/vnr/vnr12.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/vntex/vnr/vnr17.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/vntex/vnr/vnr9.pfb><C:/Users/tungu/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/vntex/vnr/vnti12.pfb>
+Output written on subdivition_intersection.pdf (23 pages, 2855821 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
